@@ -1,0 +1,245 @@
+/*Reset css*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Custom styles*/
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* Global text styles */
+body {
+  line-height: 1.5;
+}
+
+p {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* Container, sections, columns */
+.container {
+  max-width: 1440px;
+  margin: 0 auto; 
+  padding: 0 80px; 
+}
+
+section {
+  clear: both;
+  overflow: auto;  
+}
+
+.section-title {
+}
+
+.col-one-third {
+}
+
+/*Buttons*/
+
+.button {
+	color: #ffffff;
+	background-color: #06d79d;
+	border: 1px solid #06d79d;
+	border-radius: 2px;	
+}
+
+.button-header {
+	padding: 0;
+}
+
+/*Page Header*/
+header {
+  background: -webkit-gradient(linear, left top, right top, from(#100a6e), to(#645fb1));
+  background: linear-gradient(to right, #100a6e, #645fb1);
+  padding: 50px 0;
+}
+
+.container-header {
+  clear: both;
+  overflow: auto;
+}
+
+nav {
+	float: right;
+}
+
+.logo-header img {
+	float: left;
+	width: 160px;	
+}
+
+ul.menu li {
+	display: inline-block;	
+}
+
+.button-header {
+	font-size: 1rem;
+	margin-left: 34px;
+	padding: 7px 33px;
+}
+
+
+/*Hero Section*/
+.hero {
+  background: -webkit-gradient(linear, left top, right top, from(#100a6e), to(#645fb1));
+  background: linear-gradient(to right, #100a6e, #645fb1);
+  padding: 50px 0;
+}
+
+/*Features Section*/
+
+/*Access Section*/
+
+/*Page Footer*/
