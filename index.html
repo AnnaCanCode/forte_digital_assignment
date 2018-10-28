@@ -8,94 +8,84 @@
     <title>Fylo</title>
     <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png">
     <!-- Google Fonts -->
-    <!-- Fonts go here -->
-    <link rel="stylesheet" href="css/styles.css">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:700" rel="stylesheet"> 
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
     <!-- Page Header -->
-    <header>
-        <div class="container container-header">
-            <div class="logo-header">
-                <img src="images/logo.svg" alt="logo">
+    <header id="page-header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo-header">
+                    <img src="images/logo.svg" alt="logo">
+                </div>
+                <nav class="menu">
+                    <ul class="menu-content">
+                        <li class=menu-item><a class="button" id="si" href="#">Sign In</a></li>
+                        <li class="menu-item"><a class="button button-success" id="su" href="#">Sign Up</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#">Sign In</a></li>
-                    <li class="button button-header"><a href="#">Sign Up</a></li>
-                </ul>
-            </nav>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>All Your Files In One Secure <br> Location, Accessible Anywhere.</h1>
+                    <button class="button button-access">Get Started</button>
+                </div>
+                <div class="hero-img">
+                    <img src="images/illustration-hero.svg" alt="illustration hero">
+                </div>
+            </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="col-one-half">
-                <h1>All Your Files In One Secure <br> Location, Accessible Anywhere.</h1>
-            </div>
-            <button class="button button-access">Get Started</button>
-            <div class="col-one-half">
-                <img src="images/illustration-hero.svg" alt="illustration hero">
-            </div>
-        </div>
-    </section>
-
     <!-- Features Section -->
-    <section class="features">
+    <section id="features">
         <div class="container">
-            <div class="section title">
+            <div class="section-title">
                 <h2>Stay Productive, Wherever You Are</h2>
             </div>
-            <div class="col-one-third">
-                <img src="images/illustration-features.svg" alt="illustration features">
-            </div>
-            <div class="col-one-third">
-                <div class="one-paragraph">
-                    <h3>All platforms, all <br> devices, all your files</h3>
-                    <p>Lorem ipsum dolor sit amet,<br>
-                        consectetur adipiscing elit. Aliquam
-                        egestas, eIit sit amet fermentum viverra,
-                        ipsum dolor vehicula Ieo, ac accumsan
-                        magma tellus sed Ieo.</p>
+
+            <div class="features-group">
+                <div class="features-item">
+                    <img src="images/illustration-features.svg" alt="illustration features">
                 </div>
-                <div class="one-paragraph">
-                    <h3>Security you can trust</h3>
-                    <p>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Aliquam
-                        egestas, eIit sit amet fermentum viverra,
-                        ipsum dolor vehicula Ieo, ac accumsan
-                        magma tellus sed Ieo.</p>
+                <div class="features-item">
+
+                    <h3 class="features-item-title">All platforms, all <br> devices, all your files</h3>
+                    <p class="features-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                        quasi, commodi possimus
+                        laudantium ratione assumenda eos sequi sint perspiciatis distinctio eius consectetur itaque
+                        exercitationem eum.</p>
+
+                    <h3 class="features-item-title">Security you can trust</h3>
+                    <p class="features-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                        quasi, commodi possimus
+                        laudantium ratione assumenda eos sequi sint perspiciatis distinctio eius consectetur itaque
+                        exercitationem eum.</p>
                 </div>
-            </div>
-            <div class="col-one-third">
-                <div class="one-paragraph">
-                    <h3>Real-time collaboration</h3>
-                    <p>Lorem ipsum dolor sit amet,<br>
-                        consectetur adipiscing elit. Aliquam
-                        egestas, eIit sit amet fermentum viverra,
-                        ipsum dolor vehicula Ieo, ac accumsan
-                        magma tellus sed Ieo.</p>
-                </div>
-                <div class="one-paragraph">
-                    <h3>Automatic backups</h3>
-                    <p>Lorem ipsum dolor sit amet,<br>
-                        consectetur adipiscing elit. Aliquam
-                        egestas, eIit sit amet fermentum viverra,
-                        ipsum dolor vehicula Ieo, ac accumsan
-                        magma tellus sed Ieo.</p>
+                <div class="features-item">
+
+                    <h3 class="features-item-title">Real-time collaboration</h3>
+                    <p class="features-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                        voluptas maxime blanditiis.
+                        Sint debitis magnam aspernatur quia eius alias dolore. Quia excepturi doloremque ex alias.</p>
+
+                    <h3 class="features-item-title">Automatic backups</h3>
+                    <p class="features-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                        voluptas maxime blanditiis.
+                        Sint debitis magnam aspernatur quia eius alias dolore. Quia excepturi doloremque ex alias.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Access Section -->
-    <section class="access">
+    <section id="access">
         <div class="container">
-            <div class="section title">
+            <div class="section-title">
                 <h2>Get Early Access Today</h2>
             </div>
             <div class="access-text">
@@ -111,8 +101,8 @@
 
     <!-- Page Footer -->
     <footer>
-        <div class="container">
-            <div>
+        <div class="container footer-container">
+            <div class="footer-branding">
                 <div class="footer-logo">
                     <img src="images/logo.svg" alt="logo">
                 </div>
@@ -127,39 +117,39 @@
                     <p>example@fylo.com</p>
                 </div>
             </div>
-            <div>
-                <div class="col-one-third">
+            <div class="footer-menu">
+                <div class="footer-one-third">
                     <h4>Fylo</h4>
-                    <ul>
-                        <li>Desktop App</li>
-                        <li>Mobile App</li>
-                        <li>Pricing</li>
-                        <li>Feature</li>
+                    <ul class="footer-menu-content">
+                        <li class="footer-menu-item">Desktop App</li>
+                        <li class="footer-menu-item">Mobile App</li>
+                        <li class="footer-menu-item">Pricing</li>
+                        <li class="footer-menu-item">Feature</li>
                     </ul>
                 </div>
-                <div class="col-one-third">
+                <div class="footer-one-third">
                     <h4>Company</h4>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Jobs</li>
-                        <li>Press</li>
-                        <li>Blog</li>
+                    <ul class="footer-menu-content">
+                        <li class="footer-menu-item">About Us</li>
+                        <li class="footer-menu-item">Jobs</li>
+                        <li class="footer-menu-item">Press</li>
+                        <li class="footer-menu-item">Blog</li>
                     </ul>
                 </div>
-                <div class="col-one-third">
+                <div class="footer-one-third">
                     <h4>Support</h4>
-                    <ul>
-                        <li>Contact Us</li>
-                        <li>Terms</li>                        
-                        <li>Privacy</li>
+                    <ul class="footer-menu-content">
+                        <li class="footer-menu-item">Contact Us</li>
+                        <li class="footer-menu-item">Terms</li>
+                        <li class="footer-menu-item">Privacy</li>
                     </ul>
                 </div>
             </div>
-            <div>
+            <div class="footer-join">
                 <h5>Receive updates from us, including tips and
                     tricks on how to improve your workflow.</h5>
                 <form action="">
-                    <input type="email" required>
+                    <input type="email" required class="email-footer"><br>
                     <button class="button button-access">Join</button>
                 </form>
             </div>

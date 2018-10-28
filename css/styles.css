@@ -139,24 +139,11 @@ table {
 /* Global text styles */
 body {
   line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
 }
 
-p {
-}
-
-h1 {
-}
-
-h2 {
-}
-
-h3 {
-}
-
-h4 {
-}
-
-h5 {
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', serif; 
 }
 
 li a {
@@ -180,24 +167,46 @@ section {
   overflow: auto;  
 }
 
-.section-title {
+.col-one-third, .col-one-half  {
+	width: 100%;
+	float: none;
 }
 
-.col-one-third {
+@media screen and (min-width: 960px) {
+	/* .col-one-third {
+		width: 33.3333%;
+		float: left;
+	} */
+
+	.col-one-half {
+    width: 50%;	    
+	}
 }
 
 /*Buttons*/
 
 .button {
+  display: inline-block;
 	color: #ffffff;
 	background-color: #06d79d;
 	border: 1px solid #06d79d;
 	border-radius: 2px;	
 }
 
-.button-header {
-	padding: 0;
+/*Helpers*/
+.left {
+  float: left;
 }
+
+.right {
+  float: right;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/*************/
 
 /*Page Header*/
 header {
@@ -206,10 +215,10 @@ header {
   padding: 50px 0;
 }
 
-.container-header {
+/* .container-header {
   clear: both;
   overflow: auto;
-}
+} */
 
 nav {
 	float: right;
@@ -221,8 +230,10 @@ nav {
 }
 
 ul.menu li {
-	display: inline-block;	
+  display: inline-block;
+  margin: 5px 15px;  
 }
+
 
 .button-header {
 	font-size: 1rem;
@@ -235,9 +246,25 @@ ul.menu li {
 .hero {
   background: -webkit-gradient(linear, left top, right top, from(#100a6e), to(#645fb1));
   background: linear-gradient(to right, #100a6e, #645fb1);
-  padding: 50px 0;
+  padding: 50px 0;  
 }
 
+
+.hero-content div {
+  display: inline-block;  
+}
+
+h1 {
+  font-size: 1.875rem;
+  color: #ffffff;
+  padding-top: 0;  
+}
+
+@media screen and (min-width: 960px) {
+  h1 {
+    padding-top: 100px;
+  }
+}
 /*Features Section*/
 
 /*Access Section*/
