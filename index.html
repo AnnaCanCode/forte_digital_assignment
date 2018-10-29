@@ -8,7 +8,7 @@
     <title>Fylo</title>
     <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:700" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -22,17 +22,17 @@
                 <div class="logo-header">
                     <img src="images/logo.svg" alt="logo">
                 </div>
-                <nav class="menu">
+                <nav>
                     <ul class="menu-content">
-                        <li class=menu-item><a class="button" id="si" href="#">Sign In</a></li>
-                        <li class="menu-item"><a class="button button-success" id="su" href="#">Sign Up</a></li>
+                        <li class=menu-item><a class="button button-transparent" href="#">Sign In</a></li>
+                        <li class="menu-item"><a class="button button-success" href="#">Sign Up</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="hero-content">
                 <div class="hero-text">
                     <h1>All Your Files In One Secure <br> Location, Accessible Anywhere.</h1>
-                    <button class="button button-access">Get Started</button>
+                    <button class="button button-success">Get Started</button>
                 </div>
                 <div class="hero-img">
                     <img src="images/illustration-hero.svg" alt="illustration hero">
@@ -40,50 +40,54 @@
             </div>
         </div>
     </header>
-
+    
     <!-- Features Section -->
-    <section id="features">
+    <section id="features" class="skewed-box-1">
         <div class="container">
             <div class="section-title">
                 <h2>Stay Productive, Wherever You Are</h2>
             </div>
 
             <div class="features-group">
-                <div class="features-item">
-                    <img src="images/illustration-features.svg" alt="illustration features">
+                <div class="features-col-one-third">
+                    <img src="images/illustration-features.svg" alt="illustration features">                    
+                </div>                
+                <div class="features-col-one-third">
+                    <div class="features-item-col">
+                        <h3 class="features-item-title">All platforms, all <br> devices, all your files</h3>
+                        <p class="features-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                            quasi, commodi possimus
+                            laudantium ratione assumenda eos sequi sint perspiciatis distinctio eius consectetur itaque
+                            exercitationem eum.</p>
+                    </div>
+                    <div class="features-item-col">
+                        <h3 class="features-item-title">Security you can trust</h3>
+                        <p class="features-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                            quasi, commodi possimus
+                            laudantium ratione assumenda eos sequi sint perspiciatis distinctio eius consectetur itaque
+                            exercitationem eum.</p>
+                    </div>
                 </div>
-                <div class="features-item">
-
-                    <h3 class="features-item-title">All platforms, all <br> devices, all your files</h3>
-                    <p class="features-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                        quasi, commodi possimus
-                        laudantium ratione assumenda eos sequi sint perspiciatis distinctio eius consectetur itaque
-                        exercitationem eum.</p>
-
-                    <h3 class="features-item-title">Security you can trust</h3>
-                    <p class="features-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                        quasi, commodi possimus
-                        laudantium ratione assumenda eos sequi sint perspiciatis distinctio eius consectetur itaque
-                        exercitationem eum.</p>
-                </div>
-                <div class="features-item">
-
-                    <h3 class="features-item-title">Real-time collaboration</h3>
-                    <p class="features-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-                        voluptas maxime blanditiis.
-                        Sint debitis magnam aspernatur quia eius alias dolore. Quia excepturi doloremque ex alias.</p>
-
-                    <h3 class="features-item-title">Automatic backups</h3>
-                    <p class="features-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-                        voluptas maxime blanditiis.
-                        Sint debitis magnam aspernatur quia eius alias dolore. Quia excepturi doloremque ex alias.</p>
-                </div>
+                <div class="features-col-one-third">
+                    <div class="features-item-col">
+                        <h3 class="features-item-title">Real-time collaboration</h3>
+                        <p class="features-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                            voluptas maxime blanditiis.
+                            Sint debitis magnam aspernatur quia eius alias dolore. Quia excepturi doloremque ex alias.</p>
+                    </div>
+                    <div class="feture-item-col">
+                        <h3 class="features-item-title">Automatic backups</h3>
+                        <p class="features-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                            voluptas maxime blanditiis.
+                            Sint debitis magnam aspernatur quia eius alias dolore. Quia excepturi doloremque ex alias.</p>
+                    </div>
+                </div>                
             </div>
         </div>
     </section>
 
     <!-- Access Section -->
-    <section id="access">
+    <section id="access" class="skewed-box-2">
         <div class="container">
             <div class="section-title">
                 <h2>Get Early Access Today</h2>
@@ -94,10 +98,10 @@
             </div>
             <form action="">
                 <input type="email" required placeholder="email@example.com">
-                <button class="button button-access">Join</button>
+                <button class="button button-success">Join</button>
             </form>
         </div>
-    </section>
+    </section>    
 
     <!-- Page Footer -->
     <footer>
@@ -150,7 +154,7 @@
                     tricks on how to improve your workflow.</h5>
                 <form action="">
                     <input type="email" required class="email-footer"><br>
-                    <button class="button button-access">Join</button>
+                    <button class="button button-success">Join</button>
                 </form>
             </div>
         </div>
